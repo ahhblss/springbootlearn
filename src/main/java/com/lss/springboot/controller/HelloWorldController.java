@@ -17,4 +17,9 @@ public class HelloWorldController {
     String hello() {
         return helloWorldService.say("hello world hhhh ");
     }
+
+    @RequestMapping("/test")
+    String test() {
+        return helloWorldService.say("hello test ");
+    }
 }
