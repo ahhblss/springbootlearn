@@ -10,12 +10,7 @@ import org.springframework.context.annotation.Configuration;
 //@Configuration
 @SpringBootApplication //->@Configuration @EnableAutoConfiguration @ComponentScan
 //@EnableAutoConfiguration
-public class Demo1Application /*extends SpringBootServletInitializer*/ {
-
-//    @Override
-//    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-//        return application.sources(Demo1Application.class);
-//    }
+public class Demo1Application {
 
     public static void main(String[] args) {
         SpringApplication.run(Demo1Application.class, args);
